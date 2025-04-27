@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import AiInterviewImg from "@/public/AiInterview.jpg";
 import contentgeneratorImg from "@/public/contentgenerator.png";
 //import wordanalyticsImg from "@/public/wordanalytics.png";
+import xyzImg from "@/public/xyz.jpeg";
+import abcImg from "@/public/abc.jpeg";
 
 
 export const links = [
@@ -37,25 +39,25 @@ export const links = [
 export const experiencesData = [
   {
     title: "Schooling",
-    location: "St.Antony's Inter College",
+    location: "Vatsalya Public School",
     description:
-      "I have completed my Intermediate from PCM with an aggregate of 84.25% and Class Xth with 90.4%.",
+      "I have completed my Intermediate from PCM with an aggregate of 86% and Class Xth with 95%.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
   {
     title: "Undergraduate",
-    location: "ABESIT group of Institutions",
+    location: "ABES Engineering College, Ghaziabad",
     description:
-      "Currently I am a final-year student pursuing B.tech from Computer Science Stream Where i have excelled many of the techincal tools and skills.",
+      "Currently I am a final-year student pursuing B.tech from Computer Science Stream with specialization in Data Science  Where i have excelled many of the techincal tools and skills.",
     icon:  React.createElement(LuGraduationCap),
     date: "2021- 2025",
   },
   {
-    title: "SDE Intern",
-    location: "Taxian, Delhi",
+    title: "Research Intern",
+    location: "IIIT Delhi",
     description:
-      "I have worked as a Intern at Taxian(remote) where I had developed and managed the UI of the System with the help of react.js and had also created the documentation for the APIs with the help of Postman API. ",
+      "I have worked as a Intern at IIIT Delhi where I had researched on the topic of following - Simulated signal-to-noise ratio (SNR) distributions using Poisson and Uniform distributions for multiple access points (4 LiFi, 1 WiFi).Developed machine learning models to predict optimal access point allocation and estimate throughput based on SNR and user distribution.",
     icon: React.createElement(FaReact),
     date: "Aug 2024 - Sept 2024",
   },
@@ -63,20 +65,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Ai-interview-Mocker",
+    title: "Sorting Visualizer",
     description:
-      "This tool will help the fresher to take up their mock interview depending on their techstack,job description and job roles.",
-    tags: ["React", "Next.js", "Gemini AI API", "Tailwind", "Clerk","Drizzle ORM"],
-    imageUrl: AiInterviewImg,
+      "This is a sorting visualizer which will help the user to visualize the sorting algorithms like bubble sort, selection sort, insertion sort, quick sort and merge sort.",
+    tags: ["JavaScript", "React", "CSS"],
+    imageUrl: xyzImg,
    
   
   },
   {
-    title: "Content-generator for Saas App",
+    title: "Brightness Control with hand detection",
     description:
-      "The content generator tool will generate content for your saas app and many more features as well and provide the output in rich-text editor format.",
-    tags: ["Next.js", "TypeScript", "Gemini AI API", "Tailwind", "Clerk","Drizzle ORM"],
-    imageUrl: contentgeneratorImg,
+      "This is a brightness control system which will help the user to control the brightness of the screen with the help of hand detection.",
+    tags: ["Python", "Machine Learning", "OPEN - CV"],
+    imageUrl: abcImg,
   },
   /*{
     title: "Word Analytics",
@@ -109,5 +111,8 @@ export const skillsData = [
   "Python",
   "FireBase",
   "Framer Motion",
-  "GSAP"
+  "GSAP",
+  "Machine Learning",
+  "OpenCV",
+  "Data Science",
 ] as const;

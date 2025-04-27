@@ -11,7 +11,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 //import Main from "../public/WhatsApp Image 2024-07-21 at 14.32.34_d0eed226.jpg"
 import Photo1 from "../public/Photo1.jpg";
-
+import img111 from "../public/img111.jpg"
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -34,7 +34,7 @@ export default function Intro() {
               }}
             >
               <Image
-                src={Photo1}
+                src={img111}
                 alt="Ricardo portrait"
                 width="192"
                 height="192"
@@ -65,10 +65,10 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold">Hello, I'm Prajjwal.</span> I'm a{" "}
-          <span className="font-bold">MERN DEVELOPER</span> and a {" "}
+          <span className="font-bold">Hello, I'm Abhishek.</span> I'm a{" "}
+          <span className="font-bold">Software DEVELOPER</span> and a {" "}
           <span className="font-bold">fresher who is looking for opportunity to work with a team and explore more.</span>. I enjoy
-          building <span className="italic"> fully functional sites & Web-apps</span>.
+          building <span className="italic">fully functional sites & Web-apps</span>.
         </motion.h1>
 
         <motion.div
@@ -93,7 +93,7 @@ export default function Intro() {
 
           <a
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-            href={'/Prajjwal resume.pdf'}
+            href={'/Abhishek resume.pdf'}
             download
           >
             Download CV{" "}
@@ -102,7 +102,7 @@ export default function Intro() {
 
           <a
             className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://www.linkedin.com/in/prajjwal-mishra-434a37218"
+            href="https://www.linkedin.com/in/abhishek-sharma-397ba526a/"
             target="_blank"
           >
             <BsLinkedin />
@@ -110,7 +110,7 @@ export default function Intro() {
 
           <a
             className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://github.com/Prajjwal1203"
+            href="https://github.com/ang4d"
             target="_blank"
           >
             <FaGithubSquare />
